@@ -1,2 +1,6 @@
 server:
   port: 18080
+  ssl:
+    key-store: classpath:httpsKey.p12
+    key-alias: tomcathttps
+    key-store-password: 123456
