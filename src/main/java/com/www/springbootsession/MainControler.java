@@ -7,6 +7,7 @@ import javax.servlet.http.HttpServletRequest;
 
 @RestController
 public class MainControler {
+    @UserLoginToken
     @RequestMapping("/index")
     public String showindex(){
         return "index";
